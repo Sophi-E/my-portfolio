@@ -4,6 +4,9 @@
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
+body{
+    text-align: center;
+}
 .navigation{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -91,20 +94,33 @@ footer p{
     padding: 4rem 0;
 }
 .container{
-    margin-top: 2rem;
+    margin: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);  
 }
 .contact-me{
     width: 500px;
     text-align: left;
+    padding-left: 6rem;
+}
+.contact-me img{
+    border: 5px solid #f7be16;
+}
+.contact-me i{
+    color: #f7be16;
+    padding: 0.3rem;
+}
+.contact-me h2{
+    padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
 .message-container{
     width: 400px;
 }
 form {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: #f7be16;
     border: 2px solid #f7be16;
 }
