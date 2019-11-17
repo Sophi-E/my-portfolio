@@ -3,46 +3,62 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Personal site</title>
   </head>
   <body>
-      <section class='navbar'>
-        <nav>
-            <a href="#">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Project</a>
-        </nav>
-      </section>
+    <div class='navigation'>
+      <div class='brand'>
+        <a href="#">.Sophie</a>
+      </div>
+      <nav class='navbar'>
+        <a href="#">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+      <div class='icons'>
+        <a href="#"> <i class="fab fa-github"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+        
+    <main class='header'>
+      <img src="./images/blackscreen.jpg" alt="laptop" width="100%">
+      <div class='header-text'>
+        <h1>Hey there!;</h1>
+        <p>I am a <span>web developer</span> and <span>content creator</span></p>
+        <div class='header-btns'>
+          <button>About Me</button>
+          <button>Hire Me</button>
+        </div>
+        
+      </div>
       
-     <section clas='socials-top'>
-         <a href="#"> <i class="fab fa-github"></i></a>
-         <a href="#"> <i class="fab fa-instagram"></i></a>
-         <a href="#"> <i class="fab fa-twitter"></i></a>
-     </section>
-     <section class='header'>
-        <h1>hey there!;</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam illo itaque quidem ad ipsam?</p>
-        <button>About Me</button>
-        <button>Hire Me</button>
-     </section>
+    </main>
 
-     <section class='aboutMe'>
-        <img src="./images/sophia.JPG" alt="sophia">
+    <section class='about-me'>
+      <img src="./images/avatar.png" alt="avatar">
+      <div class='grid'>
         <div>
-            <i class="fas fa-file-code"></i>
-            <h3>Web Developer</h3>
+          <i class="fas fa-file-code fa-4x"></i>
+          <h3>Web Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid hic nulla culpa veritatis quos odit blanditiis, minima exercitationem assumenda!</p>
         </div>
         <div>
-            <i class="fab fa-sketch"></i>
-            <h3>Designer</h3>
+          <i class="fab fa-sketch fa-4x"></i>
+          <h3>Designer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim velit numquam ea id! Doloribus eveniet veritatis sunt. Praesentium, commodi.</p>
         </div>
         <div>
-            <i class="far fa-edit"></i>
-            <h3>Content Creator</h3>
+          <i class="far fa-edit fa-4x"></i>
+          <h3>Content Creator</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem doloremque ratione vero modi perferendis mollitia temporibus animi eum quia et.</p>
         </div>
+      </div>
+      
      </section>
      <footer>
          <div class='socialsFooter'>
@@ -56,9 +72,6 @@
          <p>&copy; Sophia Enakpoya 2019</p>
      </footer>
 
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

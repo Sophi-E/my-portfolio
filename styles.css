@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.5rem 0.7rem;
+    background-color: #f7be16;
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+.navigation a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 0.8rem;
+    font-size: 1.2rem;
+}
+.navigation a:hover{
+    color: #fff;
+}
+.header{
+    margin-top: 4.4rem;
+    text-align: center;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-text h1{
+    font-size: 8rem;
+    color: #f7be16;
+    padding-bottom: 3rem;
+}
+.header-text span{
+    color: #f7be16;
+    font-weight: bold;
+}
+.header-btns{
+    padding: 3rem 0;
+}
+.header button{
+    margin: 0 4rem;
+    padding: 0.8rem;
+    border-radius: 3px;
+    background-color: #393D42;
+    color: #f7be16;
+    border: none;
+}
+.about-me{
+    margin-top: 1rem;
+}
+.about-me .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffd369;
+    padding: 2rem;
+}
+.about-me i{
+    padding: 3rem 0;
+}
+.about-me h3{
+    padding-bottom: 1rem;
+}
+.about-me .grid div{
+    padding: 0 2rem;
+}
+footer{
+    background-color: #393D42;
+    color: #f7be16;
+    padding: 2rem;
+}
+footer i{
+    padding: 0 1.3rem;
+    cursor: pointer;
+}
+footer p{
+    padding: 1.8rem 0 0.7rem 0;
+}
+
+/* contact-page specific styles*/
+.bread-crumb{
+    background-color: #f7be16;
+    color: #000;
+    padding: 4rem 0;
+}
+.container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-me{
+    width: 500px;
+    text-align: left;
+}
+.message-container{
+    width: 400px;
+}
+form {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f7be16;
+    border: 2px solid #f7be16;
+}
+form input, textarea{
+    width: 100%;
+    padding: 6px 5px;
+    border-radius: 3px;
+    border: 1px solid #a3a5a8;
+    margin: 13px 0;
+}
+form label {
+    font-weight: 700;
+    text-align: left;
+}
