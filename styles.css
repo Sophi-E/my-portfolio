@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
 body{
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 .navigation{
@@ -39,7 +39,6 @@ body{
 .header-text h1{
     font-size: 8rem;
     color: #f7be16;
-    padding-bottom: 3rem;
 }
 .header-text span{
     color: #f7be16;
@@ -134,4 +133,10 @@ form input, textarea{
 form label {
     font-weight: 700;
     text-align: left;
+}
+input[type='submit']{
+    background-color: #393D42;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 0;
 }
